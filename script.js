@@ -1,11 +1,10 @@
 "use strict";
 
 function firstTask() {
-    const arr = [3, 5, 8, 16, 20, 23, 50];
+    const data = [5, 10, 'Shopping', 20, 'Homework'];
     const result = [];
-
-    for (let i = 0; i < arr.length; i++) {
-        result[i] = arr[i];
+    for (let i = 0; i < data.length; i++) {
+        result[i] = data[(data.length - 1) - i];
     }
 
     return result;
